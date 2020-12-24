@@ -1,0 +1,32 @@
+:host {
+  ::ng-deep ion-skeleton-text {
+    --background-rgb: 255, 0, 0;
+  }
+}
+
+.card-container{
+  margin-left: 10%;
+  width: 80%;
+}
+.top-action-view{
+  margin-left: 10%;
+  padding: 10px;
+  width: 80%;
+  .add_btn {
+    width: 150px;
+  }
+  .ion-align-items-end{
+    justify-content: flex-end;
+  }
+
+}
+.checkbox-square{
+  border-radius: 50%;
+}
+.priority{
+  background-color: lightseagreen;
+  padding: 5px;
+  width: fit-content;
+  color: white;
+  border-radius: 15px;
+}
